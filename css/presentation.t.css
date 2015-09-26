@@ -1,0 +1,1663 @@
+#workspace #presentation{
+	width: 1000px;
+	height: 562.5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+#presentation .presentation-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#presentation .presentation-inner .atomic-logo{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 10;
+	background: transparent url(t-images/items/atomic-logo.png) no-repeat center center;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#presentation .presentation-inner .scene{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#presentation .presentation-inner .scene-switcher,
+#presentation .presentation-inner .layer,
+#presentation .presentation-inner .object,
+#presentation .presentation-inner .item {
+	position: absolute;
+}
+#presentation .presentation-inner .layer {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: transparent url(t-images/gif/transparent.gif) no-repeat 0px 0px;
+}
+#presentation .presentation-inner .object {
+	background: transparent url(t-images/gif/transparent.gif) no-repeat center center;
+}
+#presentation .presentation-inner .item {
+	background: transparent url(t-images/gif/transparent.gif) no-repeat center center;
+}
+
+#presentation .presentation-inner .layer .layer-inner,
+#presentation .presentation-inner .object .object-inner,
+#presentation .presentation-inner .item .item-inner{
+	position: relative;
+}
+
+#presentation .presentation-inner .scene-1 .layer.layer-1{
+	background-image: url(t-images/bg/scene-1/1.jpg);
+	background-position: center 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-2{
+	background-image: url(t-images/bg/scene-1/2.png);
+	background-position: -66px 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-3{
+	background-image: url(t-images/bg/scene-1/3.png);
+	background-position: -66px 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-4{
+	background-image: url(t-images/bg/scene-1/4.png);
+	background-position: -66px 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-5{
+	background-image: url(t-images/items/light.png);
+	background-position: center 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-5a{
+	background-image: url(t-images/items/clear-lighting.png);
+	background-position: center 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-5b{
+	background-image: url(t-images/items/dim-lighting.png);
+	background-position: center 0px;
+}
+#presentation .presentation-inner .scene-1 .layer.layer-6{
+}
+#presentation .presentation-inner .scene-1 .layer.layer-7{
+	background-image: url(t-images/bg/scene-1/7.png);
+	background-position: center 0px;
+}
+
+#presentation .presentation-inner .scene-1 .layer.layer-5a.off,
+#presentation .presentation-inner .scene-1 .layer.layer-5b.off{
+	opacity: 0;
+}
+
+#presentation .presentation-inner .scene-2 .layer.layer-1{
+	background-image: url(t-images/bg/scene-2/1.jpg);
+	background-position: 0px 0px;
+	background-size: cover;
+}
+#presentation .presentation-inner .scene-2 .layer.layer-2{
+}
+#presentation .presentation-inner .scene-2 .layer.layer-3{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#presentation .presentation-inner .scene-2 .layer.layer-4{
+	background-image: url(t-images/bg/scene-2/4.png);
+}
+#presentation .presentation-inner .scene-2 .layer.layer-5{
+	background-image: url(t-images/bg/scene-2/5.png);
+}
+#presentation .presentation-inner .scene-2 .layer.layer-6{
+	background-image: url(t-images/bg/scene-2/6.png);
+}
+#presentation .presentation-inner .scene-2 .layer.layer-7{
+	background-image: url(t-images/bg/scene-2/7.png);
+}
+#presentation .presentation-inner .scene-2 .layer.layer-8.back{
+	left: 1200px;
+	width: 223.5px;
+	height: 562.5px;
+	background-image: url(t-images/bg/scene-2/tunnel-back-in.png);
+	background-position: center center;
+}
+#presentation .presentation-inner .scene-2 .layer.layer-8{
+	background-image: url(t-images/bg/scene-2/8.png);
+}
+#presentation .presentation-inner .scene-2 .layer.layer-8.front{
+	left: 1300px;
+	width: 220px;
+	height: 562.5px;
+	background-image: url(t-images/bg/scene-2/tunnel-front-in.png);
+	background-position: center center;
+}
+
+
+#presentation .presentation-inner .scene-2 .layer .flight{
+	position: absolute;
+	width: 140px;
+	height: 55px;
+	background-image: url(t-images/sprite/3.png);
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-0{
+	background-position: -918px -295.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-1{
+	background-position: -47px -81px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-2{
+	background-position: -47px -211px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-3{
+	background-position: -270px -279px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-4{
+	background-position: -271px -159px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-5{
+	background-position: -406px -12px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-6{
+	background-position: -406px -103px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-7{
+	background-position: -429px -307.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-8{
+	background-position: -409.5px -223.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-9{
+	background-position: -621px -114px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-10{
+	background-position: -625.5px -235.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-11{
+	background-position: -837px -55.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-12{
+	background-position: -829.5px -157.5px;
+}
+#presentation .presentation-inner .scene-2 .layer .flight.flight-13{
+	background-position: -918px -295.5px;
+}
+
+
+#presentation .presentation-inner .scene-2 .layer .cloud{
+	position: absolute;
+	background-image: url(t-images/sprite/clouds.png);
+}
+#presentation .presentation-inner .scene-2 .layer .cloud.cloud-0{
+	top: 50px;
+	left: 100px;
+	width: 442px;
+	height: 204px;
+	background-position: -20px 0px;
+}
+#presentation .presentation-inner .scene-2 .layer .cloud.cloud-1{
+	top: 50px;
+	left: 100px;
+	width: 456px;
+	height: 198px;
+	background-position: -478px 0px;
+}
+#presentation .presentation-inner .scene-2 .layer .cloud.cloud-2{
+	top: 50px;
+	left: 100px;
+	width: 292px;
+	height: 128px;
+	background-position: -966px -30px;
+}
+#presentation .presentation-inner .scene-2 .layer .cloud.cloud-3{
+	top: 50px;
+	left: 100px;
+	width: 334px;
+	height: 148px;
+	background-position: -1292px -32px;
+}
+#presentation .presentation-inner .scene-2 .layer .cloud.cloud-4{
+	top: 50px;
+	left: 100px;
+	width: 248px;
+	height: 104px;
+	background-position: -1682px -66px;
+}
+
+#presentation .presentation-inner #switcher{
+	opacity: 0;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(t-images/bg/scene-2/switcher.png);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+}
+#presentation .presentation-inner #switcherAbove{
+	opacity: 0;
+	top: 0px;
+	left: 0px;
+	width: 95%;
+	height: 100%;
+	background-image: url(t-images/bg/scene-2/adpaper.png);
+	background-position: center 150px;
+	background-repeat: repeat-x;
+}
+
+#presentation .presentation-inner .scene-3 .layer.layer-1{
+	background-image: url(t-images/bg/scene-3/1.jpg);
+	background-size: cover;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-2{
+	background-image: url(t-images/bg/scene-3/2.png);
+	background-position: 0px -2004px;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-3{
+	opacity: 0;
+	left: 150px;
+	top: 300px;
+	width: 1000px;
+	height: 562.5px;
+	background-image: url(t-images/bg/scene-3/3.png);
+	background-position: 0px 0px;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-4{
+	background-image: url(t-images/bg/scene-3/4.png);
+	background-position: center -1000px;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-5{
+}
+#presentation .presentation-inner .scene-3 .layer.layer-6{
+	background-image: url(t-images/bg/scene-3/6.png);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	top: -200px;
+	left: -990px;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-6a{
+	background-image: url(t-images/bg/scene-3/6a.png);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	top: -200px;
+	left: -990px;
+	opacity: 0;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-7{
+	background-image: url(t-images/bg/scene-3/7.png);
+}
+#presentation .presentation-inner .scene-3 .layer.layer-8.back{
+	left: 95px;
+	width: 223.5px;
+	height: 562.5px;
+	background-image: url(t-images/bg/scene-3/tunnel-back-out.png);
+	background-position: center center;
+}
+#presentation .presentation-inner .scene-3 .layer.layer-8{
+	background-image: url(t-images/bg/scene-3/8.png);
+}
+#presentation .presentation-inner .scene-3 .layer.layer-8.front{
+	left: -2.5px;
+	width: 220px;
+	height: 562.5px;
+	background-image: url(t-images/bg/scene-3/tunnel-front-out.png);
+	background-position: center center;
+}
+
+
+#presentation .presentation-inner .scene-1 .item.control-table{
+	top: 167px;
+	left: -65px;
+	width: 367.5px;
+	height: 375px;
+	background-image: url(t-images/items/control-table.png);
+}
+
+#presentation .presentation-inner .scene-1 .item.control-table #shadow{
+	top: 80px;
+	left: 25px;
+	width: 310px;
+	height: 42px;
+	background-image: url(t-images/items/shadow.png);
+}
+
+#presentation .presentation-inner .scene-1 #point1{
+	width: 4px;
+	height: 4px;
+	border-radius: 4px;
+	background: #ff9;
+	top: 120px;
+	left: 172.5px;
+}
+#presentation .presentation-inner .scene-1 #point2{
+	width: 4px;
+	height: 4px;
+	border-radius: 4px;
+	background: #ff9;
+	top: 167px;
+	left: 165px;
+}
+
+#presentation .presentation-inner .scene-1 .item.control-table  #needle1{
+	top: 100px;
+	left: 165px;
+	width: 19px;
+	height: 29px;
+	background-image: url(t-images/items/needle1.png);
+	-webkit-transform: rotateZ( 0deg );
+	-moz-transform: rotateZ( 0deg );
+	-ms-transform: rotateZ( 0deg );
+	-o-transform: rotateZ( 0deg );
+	transform: rotateZ( 0deg );
+}
+#presentation .presentation-inner .scene-1 .item.control-table  #needle2{
+	top: 144.5px;
+	left: 163px;
+	width: 9.5px;
+	height: 28px;
+	background-image: url(t-images/items/needle2.png);
+	-webkit-transform: rotateZ( 0deg );
+	-moz-transform: rotateZ( 0deg );
+	-ms-transform: rotateZ( 0deg );
+	-o-transform: rotateZ( 0deg );
+	transform: rotateZ( 0deg );
+}
+
+#presentation .presentation-inner .scene-1 .item.control-table  #com1{
+	top: 107.5px;
+	left: 212.5px;
+	width: 87.5px;
+	height: 70px;
+	background-image: url(t-images/items/screen1.png);
+	-webkit-transform: skew(-8deg);
+	-moz-transform: skew(-8deg);
+	-ms-transform: skew(-8deg);
+	-o-transform: skew(-8deg);
+	transform: skew(-8deg);
+	background-position: 0px 0px;
+}
+
+#presentation .presentation-inner .scene-1 .item.control-table #ranLight{
+	top: 223px;
+	left: 150px;
+	width: 27px;
+	height: 130px;
+}
+#presentation .presentation-inner .scene-1 .item.control-table #ranLight .item-inner{
+	width: 100%;
+	height: 100%;
+}
+
+#presentation .presentation-inner .scene-1 .item.control-table .ran-light{
+	width: 20px;
+	height: 20px;
+	margin: 3px auto 6.5px;
+	clear: both;
+	background-image: url(t-images/sprite/gap-touch.png);
+	background-position: -172px -77.5px;
+}
+#presentation .presentation-inner .scene-1 .item.control-table .ran-light.off{
+	background-position: -172px -121px;
+}
+
+#presentation .presentation-inner .scene-1 .item.robot-holder{
+	top: 165px;
+	right: -66px;
+	width: 532px;
+	height: 379.5px;
+	background-image: url(t-images/items/robot-holder.png);
+}
+#presentation .presentation-inner .scene-1 .item.robot-holder #com2{
+	top: 231px;
+	left: 162px;
+	width: 42px;
+	height: 35.5px;
+	background-image: url(t-images/items/screen2.png);
+	background-position: 0px -10px;
+	-webkit-transform: skew(-4deg);
+	-moz-transform: skew(-4deg);
+	-ms-transform: skew(-4deg);
+	-o-transform: skew(-4deg);
+	transform: skew(-4deg);
+}
+
+#presentation .presentation-inner .scene-1 .object.robot{
+	top: 125.5px;
+	left: 447px;
+	width: 105px;
+	height: 172.5px;
+	background-position: 1000px 0px;
+	background-image: url(t-images/sprite/robot-move.png);
+}
+
+#presentation .presentation-inner .scene-1 .object.robot .object-inner{
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-body{
+	opacity: 1;
+	top: 0px;
+	left: 0px;
+	width: 128px;
+	height: 218.5px;
+	background-image: url(t-images/objects/robot-body.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-hand-right{
+	opacity: 0;
+	top: 60.5px;
+	left: -50px;
+	width: 79.5px;
+	height: 132px;
+	background-image: url(t-images/objects/right-hand.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-hand-left{
+	opacity: 0;
+	top: 62.5px;
+	left: 100px;
+	width: 79.5px;
+	height: 133.5px;
+	background-image: url(t-images/objects/left-hand.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-foot-right{
+	opacity: 0;
+	top: 161px;
+	left: -22.5px;
+	width: 70.5px;
+	height: 217.5px;
+	background-image: url(t-images/objects/right-foot.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-foot-left{
+	opacity: 0;
+	top: 160.5px;
+	left: 80.5px;
+	width: 72px;
+	height: 216px;
+	background-image: url(t-images/objects/left-foot.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-tick-hand{
+	opacity: 0;
+	top: 67px;
+	left: -17.5px;
+	width: 73.5px;
+	height: 111px;
+	background-image: url(t-images/objects/tick-hand.png);
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-main{
+	opacity: 0;
+	top: 23px;
+	left: -22.5px;
+	width: 175.5px;
+	height: 335px;
+	background-image: url(t-images/objects/robot-main.png);
+}
+
+#presentation .presentation-inner .scene-1 .object.robot .robot-hand-left .text-board{
+	top: 32.5px;
+	left: 6px;
+	z-index: 2;
+	width: 83.5px;
+	height: 65px;
+	background-image: url(t-images/objects/left-board.png);
+	background-position: 0px 0px;
+}
+#presentation .presentation-inner .scene-1 .object.robot .robot-hand-right .text-board{
+	top: 32.5px;
+	left: -6px;
+	z-index: 2;
+	width: 80.5px;
+	height: 67.5px;
+	background-image: url(t-images/objects/right-board.png);
+	background-position: 0px 0px;
+}
+
+#presentation .presentation-inner .scene-1 .object.robot .robot-thumb-up{
+	opacity: 0;
+	top: 48px;
+	left: 79px;
+	width: 70.5px;
+	height: 112.5px;
+	background-image: url(t-images/objects/thumb-up.png);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+#presentation .presentation-inner .scene-1 .object.gap{
+	top: 250px;
+	left: 0px;
+	-webkit-transform: rotateX( 15deg );
+	-moz-transform: rotateX( 15deg );
+	-ms-transform: rotateX( 15deg );
+	-o-transform: rotateX( 15deg );
+	transform: rotateX( 15deg );
+}
+#presentation .presentation-inner .scene-1 .object.gap.left{
+	width: 735.5px;
+	height: 125px;
+	background-image: url(t-images/sprite/gap-1.png);
+}
+#presentation .presentation-inner .scene-1 .object.gap.right{
+	width: 488.5px;
+	height: 117.5px;
+	background-image: url(t-images/sprite/gap-2.png);
+}
+
+#presentation .presentation-inner .scene-1 .object.gap .gap-holder{
+	background-image: url(t-images/sprite/gap-touch.png);
+}
+
+#presentation .presentation-inner .scene-1 .object.gap.left .gap-holder{
+	top: 22.5px;
+	right: -50px;
+	z-index: 1;
+	width: 61px;
+	height: 68px;
+	background-position: -9px -87px;
+}
+#presentation .presentation-inner .scene-1 .object.gap.left.open .gap-holder{
+	top: -13.5px;
+	left: -39px;
+	z-index: 1;
+	width: 61px;
+	height: 88px;
+	background-position: -0px -2px;
+}
+
+
+#presentation .presentation-inner .scene-1 #gapLeftTop{
+	top: 100px;
+	left: -950px;
+	z-index: 1;
+	-webkit-transform: rotateZ(10deg);
+	-moz-transform: rotateZ(10deg);
+	-ms-transform: rotateZ(10deg);
+	-o-transform: rotateZ(10deg);
+	transform: rotateZ(10deg);
+}
+#presentation .presentation-inner .scene-1 #gapLeftTop .gap-hand{
+	top: 25px;
+	right: -117px;
+	z-index: 1;
+	width: 192.5px;
+	height: 93.5px;
+	background-image: url(t-images/objects/gap-left-hand.png);
+	background-position: -7px -11px;
+}
+
+#presentation .presentation-inner .scene-1 #gapLeftTop .gap-hand .gap-board{
+	top: -32px;
+	left: 92px;
+	z-index: 2;
+	width: 80.5px;
+	height: 67.5px;
+	background-image: url(t-images/objects/right-board.png);
+	background-position: 0px 0px;
+	-webkit-transform: rotateZ(56deg) scale(1.2);
+	-moz-transform: rotateZ(56deg) scale(1.2);
+	-ms-transform: rotateZ(56deg) scale(1.2);
+	-o-transform: rotateZ(56deg) scale(1.2);
+	transform: rotateZ(56deg) scale(1.2);
+}
+
+#presentation .presentation-inner .scene-1 #gapLeftBottom{
+	top: 950px;
+	left: -900px;
+	z-index: 1;
+	-webkit-transform: rotateZ(-30deg);
+	-moz-transform: rotateZ(-30deg);
+	-ms-transform: rotateZ(-30deg);
+	-o-transform: rotateZ(-30deg);
+	transform: rotateZ(-30deg);
+}
+#presentation .presentation-inner .scene-1 #gapLeftBottom .gap-foot{
+	top: -16px;
+	right: -138.5px;
+	z-index: 0;
+	width: 241px;
+	height: 189px;
+	background-image: url(t-images/objects/gap-left-foot.png);
+	background-position: -7px -11px;
+}
+
+#presentation .presentation-inner .scene-1 .object.gap.right .gap-holder{
+	top: 10.5px;
+	left: -35px;
+	z-index: 1;
+	width: 61px;
+	height: 68px;
+	background-position: -80px -87px;
+}
+#presentation .presentation-inner .scene-1 .object.gap.right.open .gap-holder{
+	top: 2.5px;
+	right: -50px;
+	z-index: 1;
+	width: 61px;
+	height: 88px;
+	background-position: -80px -2px;
+}
+
+
+#presentation .presentation-inner .scene-1 #gapRightTop{
+	top: 100px;
+	right: -750px;
+	left: auto;
+	z-index: 1;
+	-webkit-transform: rotateZ(-5deg);
+	-moz-transform: rotateZ(-5deg);
+	-ms-transform: rotateZ(-5deg);
+	-o-transform: rotateZ(-5deg);
+	transform: rotateZ(-5deg);
+}
+#presentation .presentation-inner .scene-1 #gapRightTop .gap-hand{
+	top: 17px;
+	left: -90px;
+	z-index: 1;
+	width: 192.5px;
+	height: 90px;
+	background-image: url(t-images/objects/gap-right-hand.png);
+	background-position: -7px -11px;
+}
+
+#presentation .presentation-inner .scene-1 #gapRightTop .gap-hand .gap-board{
+	top: 49.5px;
+	left: 33px;
+	z-index: 2;
+	width: 83.5px;
+	height: 65px;
+	background-image: url(t-images/objects/left-board.png);
+	background-position: 0px 0px;
+	-webkit-transform: rotateZ(-60deg) scale(1.2);
+	-moz-transform: rotateZ(-60deg) scale(1.2);
+	-ms-transform: rotateZ(-60deg) scale(1.2);
+	-o-transform: rotateZ(-60deg) scale(1.2);
+	transform: rotateZ(-60deg) scale(1.2);
+}
+
+#presentation .presentation-inner .scene-1 #gapRightBottom{
+	top: 900px;
+	right: -250px;
+	left: auto;
+	z-index: 1;
+	-webkit-transform: rotateZ(40deg);
+	-moz-transform: rotateZ(40deg);
+	-ms-transform: rotateZ(40deg);
+	-o-transform: rotateZ(40deg);
+	transform: rotateZ(40deg);
+}
+#presentation .presentation-inner .scene-1 #gapRightBottom .gap-foot{
+	top: -37.5px;
+	left: -124px;
+	z-index: 0;
+	width: 250.5px;
+	height: 203.5px;
+	background-image: url(t-images/objects/gap-right-foot.png);
+	background-position: -7px -11px;
+}
+
+#presentation .presentation-inner .scene-1 #downer{
+	position: fixed;
+	z-index: 10;
+	top: 430px;
+	left: 450px;
+	width: 125px;
+	height: 127px;
+}
+#presentation .presentation-inner .scene-1 #downer .arr-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#presentation .presentation-inner .scene-1 #downer .arr-inner .down-text{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 125px;
+	height: 26px;
+	background: transparent url(t-images/items/down-text.png) no-repeat center center;
+}
+#presentation .presentation-inner .scene-1 #downer .arr-inner .down-arrow{
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	width: 125px;
+	height: 100.5px;
+	background: transparent url(t-images/items/down-arrow.png) no-repeat center center;
+	-webkit-animation: animDowner 1.2s infinite ease-in-out;
+	-moz-animation: animDowner 1.2s infinite ease-in-out;
+	-ms-animation: animDowner 1.2s infinite ease-in-out;
+	-o-animation: animDowner 1.2s infinite ease-in-out;
+	animation: animDowner 1.2s infinite ease-in-out;
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-ms-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center;
+}
+
+@-moz-keyframes animDowner{
+	from{
+	top: 15px;
+	}
+	to{
+	top: 30px;
+	}
+}
+
+@-webkit-keyframes animDowner{
+	from{
+	top: 15px;
+	}
+	to{
+	top: 30px;
+	}
+}
+
+@keyframes animDowner{
+	from{
+	top: 15px;
+	}
+	to{
+	top: 30px;
+	}
+}
+
+
+#presentation .presentation-inner .scene-2 .object.robot{
+	top: 270px;
+	left: -150px;
+	width: 150px;
+	height: 310px;
+	background-position: 25px 0px;
+	background-image: url(t-images/sprite/robot-move.png);
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	-ms-transform: scale(0.65);
+	-o-transform: scale(0.65);
+	transform: scale(0.65);
+}
+#presentation .presentation-inner .scene-2 .object.robot .object-inner{
+	left: 50px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+#presentation .presentation-inner .scene-2 .object.robot .robot-hand-right{
+	opacity: 0;
+	top: 60.5px;
+	left: -50px;
+	width: 79.5px;
+	height: 132px;
+	background-image: url(t-images/objects/right-hand.png);
+}
+#presentation .presentation-inner .scene-2 .object.robot .robot-hand-left{
+	opacity: 0;
+	top: 62.5px;
+	left: 100px;
+	width: 79.5px;
+	height: 133.5px;
+	background-image: url(t-images/objects/left-hand.png);
+}
+#presentation .presentation-inner .scene-2 .object.robot .robot-main{
+	opacity: 0;
+	top: 23px;
+	left: -22.5px;
+	width: 175.5px;
+	height: 335px;
+	background-image: url(t-images/objects/robot-main.png);
+}
+
+#presentation .presentation-inner .scene-2 .object.rocket{
+	left: -500px;
+	top: 110px;
+	width: 401.5px;
+	height: 286px;
+}
+
+#presentation .presentation-inner .scene-2 .object.rocket .rocket-fire{
+	left: 0px;
+	top: 87px;
+	width: 71px;
+	height: 125.5px;
+	background-image: url(t-images/sprite/rocket-fire.png);
+	background-position: -19px -43px;
+	-webkit-animation: animRocketFire 300ms infinite;
+	-moz-animation: animRocketFire 300ms infinite;
+	-ms-animation: animRocketFire 300ms infinite;
+	-o-animation: animRocketFire 300ms infinite;
+	animation: animRocketFire 300ms infinite;
+}
+
+#presentation .presentation-inner .scene-2 .object.billboard{
+	left: 50px;
+	top: 50px;
+	height: 175px;
+	width: 140px;
+}
+#presentation .presentation-inner .scene-2 .object.billboard.far {
+	width: 140px;
+	height: 92px;
+}
+#presentation .presentation-inner .scene-2 .object.billboard.far .bb-main{
+	width: 140px;
+	height: 92px;
+	background-image: url(t-images/items/billboard-2.png);
+	background-position: center center;
+}
+#presentation .presentation-inner .scene-2 .object.billboard.far .bb-base{
+	width: 131px;
+	height: 83px;
+	background-image: url(t-images/items/billboard-base.png);
+	background-position: center center;
+}
+
+
+@-moz-keyframes animRocketFire {
+	0% {
+	left: 0px;
+}
+	50% {
+	left: 2.5px;
+}
+	100% {
+	left: 5px;
+}
+}
+@-webkit-keyframes animRocketFire {
+	0% {
+	left: 0px;
+}
+	50% {
+	left: 2.5px;
+}
+	100% {
+	left: 5px;
+}
+}
+@keyframes animRocketFire {
+	0% {
+	left: 0px;
+}
+	50% {
+	left: 2.5px;
+}
+	100% {
+	left: 5px;
+}
+}
+
+#presentation .presentation-inner .scene-2 .object.rocket #rocketMain{
+	left: 0px;
+	top: 0px;
+	width: 401.5px;
+	height: 286px;
+	background-image: url(t-images/objects/rocket-body.png);
+	background-position: 0px 0px;
+}
+
+
+#presentation .presentation-inner .scene-2 .object.tank{
+	left: 1050px;
+	top: 240px;
+	width: 472px;
+	height: 255px;
+}
+
+#presentation .presentation-inner .scene-2 .object.tank #tankMain{
+	left: 0px;
+	top: -40px;
+	width: 472px;
+	height: 240px;
+	background-image: url(t-images/objects/tank-body.png);
+	background-position: 0px 25px;
+}
+
+
+#presentation .presentation-inner .scene-2 .object.tank .tank-wheel-1{
+	left: 30px;
+	top: 133px;
+	width: 92.5px;
+	height: 92.5px;
+	background-position: -4.5px -19px;
+}
+#presentation .presentation-inner .scene-2 .object.tank .tank-wheel-2{
+	left: 245.5px;
+	top: 135px;
+	width: 91px;
+	height: 91px;
+	background-position: -220px -23px;
+}
+#presentation .presentation-inner .scene-2 .object.tank .tank-wheel-3{
+	left: 346px;
+	top: 120px;
+	width: 107px;
+	height: 107px;
+	background-position: -319px -6px;
+}
+#presentation .presentation-inner .scene-2 .object.tank .tank-wheel{
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-ms-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center;
+	background-image: url(t-images/sprite/tank-wheel.png);
+}
+
+#tank.active .tank-wheel{
+	-webkit-animation: animTankWheel 5s linear;
+	-moz-animation: animTankWheel 5s linear;
+	-ms-animation: animTankWheel 5s linear;
+	-o-animation: animTankWheel 5s linear;
+	animation: animTankWheel 5s linear;
+}
+
+@-moz-keyframes animTankWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes animTankWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+@keyframes animTankWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+#presentation .presentation-inner .scene-2 .object.bus{
+	left: -600px;
+	top: 230px;
+	width: 528px;
+	height: 220px;
+}
+
+#presentation .presentation-inner .scene-2 .object.bus #busMain{
+	left: 0px;
+	top: 0px;
+	width: 528px;
+	height: 220px;
+	background-image: url(t-images/objects/truck-body.png);
+	background-position: 0px 0px;
+}
+#presentation .presentation-inner .scene-2 .object.bus .bus-wheel-1{
+	left: 46px;
+	top: 167.5px;
+	width: 63px;
+	height: 63px;
+	background-position: -28px -23.5px;
+}
+#presentation .presentation-inner .scene-2 .object.bus .bus-wheel-2{
+	left: 369px;
+	top: 169px;
+	width: 61.5px;
+	height: 61.5px;
+	background-position: -367.5px -23.5px;
+}
+#presentation .presentation-inner .scene-2 .object.bus .bus-wheel{
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-ms-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center;
+	background-image: url(t-images/sprite/truck-wheel.png);
+}
+
+#bus.active .bus-wheel{
+	-webkit-animation: animBusWheel 1s infinite linear;
+	-moz-animation: animBusWheel 1s infinite linear;
+	-ms-animation: animBusWheel 1s infinite linear;
+	-o-animation: animBusWheel 1s infinite linear;
+	animation: animBusWheel 1s infinite linear;
+}
+
+@-moz-keyframes animBusWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes animBusWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+@keyframes animBusWheel{
+	from{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+	to{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+
+
+#presentation .presentation-inner .missile{
+	top: 275px;
+	left: 75px;
+	width: 280px;
+	height: 200px;
+}
+#presentation .presentation-inner .missile-main{
+	top: 0px;
+	left: 0px;
+	width: 280px;
+	height: 200px;
+	background-image: url(t-images/sprite/missile.png);
+	background-position: 0px -15px;
+}
+#presentation .presentation-inner .missile-fire{
+	opacity: 0;
+	height: 79.5px;
+	width: 112.5px;
+	left: -37.5px;
+	top: 116px;
+	background-image: url(t-images/items/missile-fire.png);
+	background-position: 0px 0px;
+}
+
+#presentation .presentation-inner #missileClone.missile{
+	opacity: 0;
+	top: 326px;
+	left: -200px;
+}
+
+
+#presentation .presentation-inner .scene-3 .object.robot{
+	opacity: 0;
+	top: 315px;
+	left: 340px;
+	width: 150px;
+	height: 310px;
+	background-position: 0px 0px;
+	background-image: url(t-images/sprite/robot-move.png);
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	-ms-transform: scale(0.65);
+	-o-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+#presentation .presentation-inner .scene-3 .object.cow{
+	left: 922.5px;
+	top: 345px;
+	width: 471px;
+	height: 295px;
+	background-image: url(t-images/sprite/animals.png);
+	background-position: -0px -1px;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	-o-transform: scale(0.6);
+	transform: scale(0.6);
+}
+#presentation .presentation-inner .scene-3 .object.trex{
+	left: 1072.5px;
+	top: 300.5px;
+	width: 275.5px;
+	height: 260px;
+	background-image: url(t-images/sprite/animals.png);
+	background-position: -2px -620px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+#presentation .presentation-inner .scene-3 .object.spacecraft{
+	opacity: 0;
+	top: -5px;
+	left: 675px;
+	width: 200px;
+	height: 350px;
+	background-image: url(t-images/sprite/spacecraft.png);
+	background-position: -232.5px 0px;
+	background-position: -10px 0px;
+	-webkit-transform: scale(1.6);
+	-moz-transform: scale(1.6);
+	-ms-transform: scale(1.6);
+	-o-transform: scale(1.6);
+	transform: scale(1.6);
+}
+#presentation .presentation-inner .scene-3 .object.spacecraft .object-inner{
+}
+#presentation .presentation-inner .scene-3 .object.spacecraft .object-inner .cloud{
+	background-image: url(t-images/sprite/spacecraft.png);
+	background-position: -460px -87.5px;
+	top: 166px;
+	left: -10px;
+	width: 148.5px;
+	height: 400.5px;
+	opacity: 0;
+}
+#presentation .presentation-inner .scene-3 .object.spacecraft .object-inner .fire{
+	background-image: url(t-images/sprite/spacecraft.png);
+	background-position: -431px -14px;
+	top: 167.5px;
+	left: 47px;
+	width: 28px;
+	height: 38px;
+	opacity: 0;
+}
+#presentation .presentation-inner .scene-3 .object.spacecraft .object-inner .door{
+	background-image: url(t-images/sprite/spacecraft.png);
+	background-position: -70px -360px;
+	top: 157.5px;
+	left: 62px;
+	width: 72px;
+	height: 99px;
+	opacity: 1;
+}
+#presentation .presentation-inner .scene-3 .object.spacecraft .object-inner .fully{
+	background-image: url(t-images/sprite/spacecraft.png);
+	background-position: -280.5px -347px;
+	top: 157.5px;
+	left: 62.5px;
+	width: 70px;
+	height: 100px;
+	opacity: 0;
+}
+
+#presentation .presentation-inner .scene-3 #cloudBase{
+	opacity: 0;
+	top: 515px;
+	left: 455px;
+	width: 730px;
+	height: 478px;
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	-ms-transform: scale(0.1);
+	-o-transform: scale(0.1);
+	transform: scale(0.1);
+}
+#presentation .presentation-inner .scene-3 #cloudBase .item-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#presentation .presentation-inner .scene-3 #cloudBase .item-inner .item{
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-position: center center;
+	background-size: cover;
+}
+#presentation .presentation-inner .scene-3 #cloudBase .smoke-1{
+	background-image: url(t-images/items/smoke-3.png);
+}
+#presentation .presentation-inner .scene-3 #cloudBase .smoke-2{
+	background-image: url(t-images/items/smoke-2.png);
+}
+#presentation .presentation-inner .scene-3 #cloudBase .smoke-3{
+	background-image: url(t-images/items/smoke-1.png);
+}
+
+
+#presentation .presentation-inner .scene-3 .object.ufo{
+	left: 0px;
+	top: 70px;
+	width: 285px;
+	height: 117px;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	-o-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+#presentation .presentation-inner .scene-3 .object.ufo #ufoMain{
+	left: 0px;
+	top: 0px;
+	width: 285px;
+	height: 117px;
+	background-image: url(t-images/sprite/UFO.png);
+	background-position: -9px -9px;
+}
+#presentation .presentation-inner .scene-3 .object.ufo #ufoLight{
+	left: 12.5px;
+	top: 97.5px;
+	width: 277.5px;
+	height: 300px;
+	opacity: 0;
+	background-image: url(t-images/sprite/UFO.png);
+	background-position: -408px -1.5px;
+}
+#presentation .presentation-inner .scene-3 .object.ufo #ufoAnimal{
+	opacity: 0;
+	background-image: url(t-images/sprite/animals.png);
+}
+
+#presentation .presentation-inner .scene-3 .object.ufo #ufoAnimal.au1{
+	left: 27.5px;
+	top: 147.5px;
+	width: 275.5px;
+	height: 260px;
+	background-image: url(t-images/sprite/animals.png);
+	background-position: -2px -620px;
+}
+
+#presentation .presentation-inner .scene-3 .object.ufo #ufoAnimal.au2{
+	left: 72.5px;
+	top: 280px;
+	width: 471px;
+	height: 295px;
+	background-image: url(t-images/sprite/animals.png);
+	background-position: -0px -1px;
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	-o-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+#presentation .presentation-inner .scene-3 .object.ufo #ufoAnimal.au3{
+	left: 66px;
+	top: 335px;
+	width: 389px;
+	height: 149px;
+	background-image: url(t-images/sprite/animals.png);
+	background-position: -4px -1162px;
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	-o-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+#presentation .presentation-inner #logoAtomic{
+	position: absolute;
+	opacity: 0;
+	left: 396px;
+	top: 401px;
+	width: 193.5px;
+	height: 105px;
+	background-image: url(t-images/items/logo.png);
+	background-size: cover;
+}
+
+#presentation .presentation-inner #swicherTop{
+	top: -1px;
+	left: -1px;
+	right: -1px;
+}
+
+.scene-2{
+	opacity: 0;
+}
+.scene-3{
+	opacity: 0;
+}
+
+#slider{
+	position: fixed;
+	z-index: 10;
+	bottom: -30px;
+	left: 150px;
+	width: 250px;
+	height: 24px;
+}
+#slider .slider-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#slider .slider-inner #cobas{
+	position: absolute;
+	top: 7.5px;
+	left: 5px;
+	z-index: 0;
+	width: 240px;
+	height: 12px;
+	background-color: #000;
+}
+#slider .slider-inner #cobar{
+	position: absolute;
+	top: 7.5px;
+	left: 5px;
+	z-index: 1;
+	width: 14px;
+	height: 12px;
+	background-color: #f88001;
+	transition: all 100ms ease-out;
+}
+#slider .slider-inner #bgbar{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 250px;
+	height: 24px;
+	background: transparent url(t-images/items/slide-bar.png) no-repeat center center;
+}
+#slider.step-1 #cobar{
+	width: 14px;
+}
+#slider.step-2 #cobar{
+	width: 86px;
+}
+#slider.step-3 #cobar{
+	width: 160px;
+}
+#slider.step-4 #cobar{
+	width: 235px;
+}
+
+#slider .slider-inner .slide-point{
+	position: absolute;
+	top: 4.5px;
+	left: 5px;
+	z-index: 4;
+	width: 18px;
+	height: 18px;
+	background: transparent url(t-images/items/circle.png) no-repeat center center;
+	transition: all 100ms ease-out;
+}
+#slider .slider-inner .slide-stop{
+	position: absolute;
+	top: 4.5px;
+	left: 5px;
+	z-index: 3;
+	opacity: 0;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	background-color: #f88001;
+}
+#slider.step-1 .slider-inner .slide-point{
+	left: 5px;
+}
+#slider.step-2 .slider-inner .slide-point{
+	left: 79px;
+}
+#slider.step-3 .slider-inner .slide-point{
+	left: 153px;
+}
+#slider.step-4 .slider-inner .slide-point{
+	left: 227.5px;
+}
+#slider .slider-inner .slide-stop.pos-1{
+	left: 5px;
+}
+#slider .slider-inner .slide-stop.pos-2{
+	left: 79px;
+}
+#slider .slider-inner .slide-stop.pos-3{
+	left: 153px;
+}
+#slider .slider-inner .slide-stop.pos-4{
+	left: 227.5px;
+}
+#slider .slider-inner .slide-stop:hover{
+	opacity: 0.5;
+}
+
+#panel{
+	position: fixed;
+	z-index: 6;
+	top: -500px;
+	width: 320px;
+	height: 390px;
+	overflow: hidden;
+	margin: auto;
+	opacity: 0.4;
+	background: transparent url(t-images/items/panel-medium.png) no-repeat center center;
+}
+#panel .left{
+	width: 62.5px;
+	height: 220px;
+	float: left;
+	margin: 155px 0px 0px 9px;
+}
+#panel .right{
+	width: 225px;
+	height: 217px;
+	float: left;
+	overflow: auto;
+	margin: 154.5px 0px 0px 0px;
+	position: relative;
+}
+
+#panel .left .btn-panel{
+	width: 50px;
+	height: 40px;
+	margin: 0px auto 2.5px;
+	background: transparent url(t-images/sprite/box-sprite.png) no-repeat 1200px 0px;
+}
+#panel .left .btn-panel.strategy{
+	background-position: -6px -1px;
+}
+#panel .left .btn-panel.marketing{
+	background-position: -6.5px -54px;
+}
+#panel .left .btn-panel.technology{
+	background-position: -6px -118px;
+}
+#panel .left .btn-panel.team{
+	background-position: -6.5px -173.5px;
+}
+#panel .left .btn-panel.contact{
+	background-position: -6.5px -226.5px;
+}
+
+#panel .left .btn-panel.strategy:hover{
+	background-position: -116px -1px;
+}
+#panel .left .btn-panel.marketing:hover{
+	background-position: -116.5px -54px;
+}
+#panel .left .btn-panel.technology:hover{
+	background-position: -116px -118px;
+}
+#panel .left .btn-panel.team:hover{
+	background-position: -116.5px -173.5px;
+}
+#panel .left .btn-panel.contact:hover{
+	background-position: -116px -226.5px;
+}
+
+#panel .left .btn-panel.strategy.active{
+	background-position: -218px -1px;
+}
+#panel .left .btn-panel.marketing.active{
+	background-position: -218.5px -54px;
+}
+#panel .left .btn-panel.technology.active{
+	background-position: -218px -118px;
+}
+#panel .left .btn-panel.team.active{
+	background-position: -218.5px -173.5px;
+}
+#panel .left .btn-panel.contact.active{
+	background-position: -218px -226.5px;
+}
+
+@media only screen and (max-height:300px){
+	#panel{
+	width: 272px;
+	height: 329px;
+	background: transparent url(t-images/items/panel-small.png) no-repeat center center;
+	}
+	#panel .left{
+	width: 41px;
+	height: 188px;
+	margin: 122.5px 0px 0px 13.5px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+	}
+	#panel .right{
+	width: 200px;
+	height: 187.5px;
+	margin: 127.5px 0px 0px 0px;
+	}
+}
+
+@media only screen and (min-height:450px){
+	#panel{
+	width: 429px;
+	height: 507px;
+	background: transparent url(t-images/items/panel-big.png) no-repeat center center;
+	}
+	#panel .left{
+	width: 80px;
+	height: 297px;
+	margin: 185px 0px 0px 11px;
+	}
+	#panel .right{
+	width: 310px;
+	height: 296px;
+	margin: 186px 0px 0px 0px;
+	}
+}
+
+#panelScroller{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+
+#panelContent{
+	padding: 10px;
+	color: #ff0;
+	padding-left: 15px;
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+.iScrollVerticalScrollbar{
+	position: absolute;
+	z-index: 9999;
+	width: 4px;
+	bottom: 0px;
+	top: 0px;
+	right: 0.5px;
+	overflow: hidden;
+	background-color: rgba(50, 50, 50, 0.8);
+}
+
+.iScrollIndicator{
+	position: absolute;
+	background-color: #000;
+	border-radius: 0px;
+}
+
+.iScrollVerticalScrollbar .iScrollIndicator {
+	width: 100%;
+	background-color: rgba(200, 200, 200, 0.6);
+}
