@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+	text-decoration: none;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor:default;
+	
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+html, body{
+	font: 500 14px arial;
+	overflow: hidden;
+}
+.unselectable{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+.header {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer {
+	position: fixed;
+	z-index: 3;
+	bottom: 0;
+	left: 0;
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	background: #ddd;
+	padding: 0;
+	text-align: center;
+	border-top: 1px solid #aaa;
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	overflow-y:auto;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#fakeHeight{height:10000px;width:10px;}
+#log{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 100px;
+	background: #000;
+	color: #fff;
+	padding: 20px;
+	overflow: auto;
+	display: none;
+}
+
+#workspace{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #000;
+}
+
+.loading{
+	position:fixed;top:0px;bottom:0px;left:0px;right:0px;z-index:100;background-color:#efe;
+}
+.loading .wrapper{position:relative;width:100%;height:100%;}
+.loading .wrapper .ico-loading{
+	width: 152px;
+	height: 76px;
+	border-radius: 76px / 38px;
+	margin: 15% auto; opacity: 0.8;
+	background: #efe url(images/gif/atoms.gif) no-repeat center center;
+}
+.loading .wrapper .ico-loading .txt-inner{
+	position:relative;
+	font: 500 italic 13px arial;
+	top:70px;left:50px;
+}
+
+.progress-bar{position:fixed;z-index:1002;left:0px;top:0px;right:0px;height:5px;}
+.progress-bar .progress-bar-inner{position: relative;top:0px;left:0px;width:100%;height:100%;background-color:#bbe;}
+.progress-bar .progress-bar-inner .percent-bar{
+	position:absolute;z-index:1;left:0px;top:0px;width:0%;height:70%;background-color: #00f;
+	box-shadow: 0px 2px 2px #aaa;
+}

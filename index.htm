@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Atomic Strategy</title>
+    <link rel="icon" href="icon-25.png" sizes="24x24">
+    <link rel="shortcut icon" href="icon-25.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+  <div class="container">
+    <div id="wrapper">
+      <div id="scroller">
+        <div class="fake-height" id="fakeHeight"></div>
+      </div>
+    </div>
+    <div id="workspace">
+      <div id="presentation">
+        <div class="presentation-inner">
+          <!-- scene 1 -->
+          <div class="scene scene-1" id="scene1">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2" id="layer2Scene1"></div>
+            <div class="layer layer-3" id="layer3Scene1"></div>
+            <div class="layer layer-4" id="layer4Scene1"></div>
+            <div class="layer layer-5"></div>
+
+             <div class="item control-table" id="tableControl">
+              <div class="item-inner">
+                <div class="item" id="needle1"></div>
+                <div class="item" id="needle2"></div>
+                <div class="item" id="com1"></div>
+                <div class="item" id="shadow"></div>
+                <div class="item" id="point1"></div>
+                <div class="item" id="point2"></div>
+                <div class="item" id="ranLight">
+                  <div class="item-inner">
+                    <div class="ran-light off"></div>
+                    <div class="ran-light off"></div>
+                    <div class="ran-light off"></div>
+                    <div class="ran-light off"></div>
+                    <div class="ran-light off"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item robot-holder" id="robotHolder">
+              <div class="item-inner">
+                <div class="item" id="com2"></div>
+              </div>
+            </div>
+
+            <div class="object robot" id="robot">
+              <div class="object-inner" id="robotUnrack">
+                <div class="object robot-body" id="robotBody"></div>
+                <div class="object robot-main" id="robotMain"></div>
+                <div class="object robot-hand-left" id="robotLeftHand">
+                  <div class="object-inner">
+                    <div class="object text-board"></div>
+                  </div>
+                </div>
+                <div class="object robot-hand-right" id="robotRightHand">
+                  <div class="object-inner">
+                    <div class="object text-board"></div>
+                  </div>
+                </div>
+                <div class="object robot-foot-left" id="robotLeftFoot"></div>
+                <div class="object robot-foot-right" id="robotRightFoot"></div>
+                <div class="object robot-thumb-up" id="robotThumbUp"></div>
+                <div class="object robot-tick-hand" id="robotTickHand"></div>
+              </div>
+            </div>
+
+            <div class="object gap left top" id="gapLeftTop">
+              <div class="object-inner">
+                <div class="object gap-holder" id="gapLeftTopHolder"></div>
+                <div class="object gap-hand" id="gapLeftTopHand">
+                  <div class="object-inner">
+                    <div class="object gap-board"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="object gap left bottom" id="gapLeftBottom">
+              <div class="object-inner">
+                <div class="object gap-holder" id="gapLeftBottomHolder"></div>
+                <div class="object gap-foot" id="gapLeftBottomFoot"></div>
+              </div>
+            </div>
+
+            <div class="object gap right top" id="gapRightTop">
+              <div class="object-inner">
+                <div class="object gap-holder" id="gapRightTopHolder"></div>
+                <div class="object gap-hand" id="gapRightTopHand">
+                  <div class="object-inner">
+                    <div class="object gap-board"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="object gap right bottom" id="gapRightBottom">
+              <div class="object-inner">
+                <div class="object gap-holder" id="gapRightBottomHolder"></div>
+                <div class="object gap-foot" id="gapRightBottomFoot"></div>
+              </div>
+            </div>
+
+            <div class="layer layer-5a" id="clearLight"></div>
+            <div class="layer layer-5b off" id="dimLight"></div>
+
+            <div class="layer layer-6"></div>
+            <div class="layer layer-7" id="layer7Scene1"></div>
+
+            <div id="downer">
+              <div class="arr-inner">
+                <div class="down-text"></div>
+                <div class="down-arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- scene 2 -->
+          <div class="scene scene-2" id="scene2">
+            <div class="layer layer-1" id="scene2layer1"></div>
+            <div class="layer layer-3">
+              <div class="layer-inner" id="freeFight">
+
+              </div>
+            </div>
+
+            <div class="object billboard far" id="bbA1"></div>
+            <div class="object billboard far" id="bbA2"></div>
+            <div class="object billboard far" id="bbA3"></div>
+
+            <div class="layer layer-4" id="scene2layer4"></div>
+
+            <div class="object billboard near" id="bbB1"></div>
+            <div class="object billboard near" id="bbB2"></div>
+
+            <div class="layer layer-5" id="scene2layer5"></div>
+            <div class="layer layer-6" id="scene2layer6"></div>
+
+            <div class="object rocket" id="rocket">
+              <div class="object-inner">
+                <div class="object rocket-fire"></div>
+                <div class="object rocket-main" id="rocketMain"></div>
+              </div>
+            </div>
+
+            <div class="object tank" id="tank">
+              <div class="object-inner">
+                <div class="object tank-main" id="tankMain"></div>
+                <div class="object tank-wheel-1 tank-wheel"></div>
+                <div class="object tank-wheel-2 tank-wheel"></div>
+                <div class="object tank-wheel-3 tank-wheel"></div>
+              </div>
+            </div>
+
+            <div class="object bus" id="bus">
+              <div class="object-inner">
+                <div class="object bus-wheel-1 bus-wheel"></div>
+                <div class="object bus-wheel-2 bus-wheel"></div>
+                <div class="object bus-main" id="busMain"></div>
+              </div>
+            </div>
+
+            <div class="layer layer-7" id="scene2layer7"></div>
+
+            <div class="layer layer-8 back" id="scene2layer8back"></div>
+
+
+            <div class="object robot" id="robotClone">
+              <div class="object-inner">
+                <div class="object robot-main" id="robotCloneMain"></div>
+                <div class="object robot-hand-left" id="robotCloneLeftHand"></div>
+                <div class="object robot-hand-right" id="robotCloneRightHand"></div>
+              </div>
+            </div>
+            <div class="object missile" id="missile">
+              <div class="object-inner">
+                <div class="object missile-fire" id="missileFire"></div>
+                <div class="object missile-main" id="missileMain"></div>
+              </div>
+            </div>
+
+            <div class="layer layer-8" id="scene2layer8"></div>
+
+            <div class="layer layer-8 front" id="scene2layer8front"></div>
+
+          </div>
+
+          <div class="scene-switcher" id="switcher"></div>
+          <div class="scene-switcher" id="switcherAbove"></div>
+
+          <!-- scene 3 -->
+          <div class="scene scene-3" id="scene3">
+            <div class="layer layer-1" id="scene3layer1"></div>
+            <div class="layer layer-2" id="scene3layer2"></div>
+            <div class="layer layer-3" id="scene3layer3"></div>
+            <div class="layer layer-4" id="scene3layer4"></div>
+            <div class="layer layer-5" id="scene3layer5"></div>
+
+            <div class="layer layer-6" id="scene3layer6"></div>
+
+            <div class="layer layer-7" id="scene3layer7"></div>
+
+
+            <div class="object cow" id="cow">
+              <div class="object-inner">
+                <div class="object" id="cowMain"></div>
+              </div>
+            </div>
+            <div class="object trex" id="trex">
+              <div class="object-inner">
+                <div class="object" id="trexMain"></div>
+              </div>
+            </div>
+
+            <div class="object ufo" id="ufo">
+              <div class="object-inner">
+                <div class="object ufo-animal" id="ufoAnimal"></div>
+                <div class="object ufo-light" id="ufoLight"></div>
+                <div class="object ufo-main" id="ufoMain"></div>
+              </div>
+            </div>
+
+            <div class="layer layer-6a" id="mountain"></div>
+
+
+            <div class="object spacecraft" id="spacecraft">
+              <div class="object-inner">
+                <div class="object cloud" id="spacecraftCloud"></div>
+                <div class="object fire" id="spacecraftFire"></div>
+                <div class="object fully" id="spacecraftFully"></div>
+                <div class="object door" id="spacecraftDoor"></div>
+              </div>
+            </div>
+
+            <div class="layer layer-8 back" id="scene3layer8back"></div>
+
+            <div class="object missile" id="missileClone">
+              <div class="object-inner">
+                <div class="object missile-fire" id="missileCloneFire"></div>
+                <div class="object missile-main" id="missileCloneMain"></div>
+              </div>
+            </div>
+            <div class="object robot" id="robotScene3"></div>
+
+            <div class="layer layer-8" id="scene3layer8"></div>
+            <div class="layer layer-8 front" id="scene3layer8front"></div>
+
+            <div class="item" id="cloudBase">
+              <div class="item-inner">
+                <div class="item smoke-1"></div>
+                <div class="item smoke-2"></div>
+                <div class="item smoke-3"></div>
+              </div>
+            </div>
+          </div>
+          <div id="logoAtomic"></div>
+          <!-- scene swicher -->
+
+          <div class="atomic-logo" id="atomicLogo"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="panel">
+      <div class="left">
+        <div class="btn-panel strategy" section="strategy">
+          <!-- Begin html content for the STRATEGY section -->
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a dui sit amet dui malesuada interdum. Nullam malesuada purus lacus, non rutrum sapien sagittis quis. Etiam ac lacus sit amet libero pretium ultricies sed vitae quam. Donec aliquet laoreet diam in rhoncus. Fusce eu orci neque. Sed gravida aliquet neque eget laoreet. Nunc adipiscing neque eros, at aliquet dolor dictum eu.<br><br>
+          Sed suscipit mi in est imperdiet pretium. Morbi rhoncus enim ipsum, ut congue metus euismod a. Integer magna nibh, posuere at ultrices eu, ornare id massa. Vivamus suscipit velit quam, at aliquet massa laoreet et. Duis non tincidunt lectus, ac accumsan est. Nam dolor erat, porttitor et tellus tristique, venenatis imperdiet est. Sed hendrerit lacus metus, sit amet condimentum mi vestibulum sed. Quisque porttitor leo suscipit sodales convallis.<br><br>
+          Aliquam nec mauris massa. Fusce auctor erat lacinia, tempus tellus sit amet, consequat nisl. Aliquam erat volutpat. Pellentesque massa justo, aliquam volutpat lacus non, varius rhoncus elit. Sed vehicula, lacus eget dictum porttitor, risus urna rutrum magna, eget cursus justo velit at eros. Mauris vitae eros tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi semper blandit est, nec tincidunt diam laoreet a. Vestibulum non ullamcorper velit. Vivamus egestas tortor a egestas sagittis. Mauris in porttitor nisi, sed elementum nunc. Etiam quis faucibus nibh, sit amet congue lacus. Nullam mattis erat ante, vel congue tortor elementum vitae. Quisque quis lacus in quam blandit sodales non vel massa.<br><br>
+          Maecenas id neque elit. Pellentesque gravida risus et ullamcorper vestibulum. Sed velit ligula, pretium nec ullamcorper nec, semper non turpis. Praesent ut erat nec risus imperdiet ornare. Nullam augue mauris, pharetra ac orci id, tincidunt elementum elit. In molestie nulla id libero fermentum, ac porttitor purus volutpat. Donec a lectus a ante lacinia aliquet vel non felis.<br><br>
+          Duis quis euismod leo, non cursus sem. Nam luctus luctus nisi, sed bibendum purus faucibus ac. Donec ornare lectus tellus, a ornare nisi pretium eu. Nulla ut odio urna. Donec sed mattis dolor, ac rutrum leo. Fusce scelerisque tempus magna, in pharetra mauris malesuada nec. Cras cursus ut nisi dictum faucibus. Quisque aliquam velit dolor, eu adipiscing purus convallis ut. Duis consequat placerat sapien. In nec tortor augue. Morbi egestas vestibulum sapien, sed lacinia arcu ultrices non. Aenean sed scelerisque sapien, eu aliquet eros. Curabitur congue massa nec elit auctor, in posuere arcu vulputate. Etiam porttitor sagittis massa. Phasellus in ipsum nec ligula convallis dapibus.<br><br>
+          <!-- End STRATEGY section -->
+        </div>
+        <div class="btn-panel marketing" section="marketing">
+          <!-- Begin html content for the MARKETING section -->
+          In lectus quam, viverra a pellentesque eget, faucibus eget ante. Maecenas eget eros sed risus ultricies consectetur. Sed placerat augue eu ipsum fringilla lobortis. Sed ut neque mi. Vivamus ultricies lacus velit, at blandit orci accumsan sed. Vivamus rhoncus dapibus venenatis. Curabitur elit enim, rhoncus eu condimentum a, aliquam a ligula. Nunc varius lacus ac erat ultricies convallis eget non diam. Praesent facilisis elit non pellentesque accumsan. Duis vitae hendrerit augue. Mauris nec nisi sit amet velit egestas venenatis. Praesent eros lacus, suscipit a tempor quis, tempus vitae turpis. Aliquam tempor sem sit amet tincidunt gravida. Fusce id quam vitae nibh pharetra vehicula.<br><br>
+          Sed suscipit mi in est imperdiet pretium. Morbi rhoncus enim ipsum, ut congue metus euismod a. Integer magna nibh, posuere at ultrices eu, ornare id massa. Vivamus suscipit velit quam, at aliquet massa laoreet et. Duis non tincidunt lectus, ac accumsan est. Nam dolor erat, porttitor et tellus tristique, venenatis imperdiet est. Sed hendrerit lacus metus, sit amet condimentum mi vestibulum sed. Quisque porttitor leo suscipit sodales convallis.<br><br>
+          Aliquam nec mauris massa. Fusce auctor erat lacinia, tempus tellus sit amet, consequat nisl. Aliquam erat volutpat. Pellentesque massa justo, aliquam volutpat lacus non, varius rhoncus elit. Sed vehicula, lacus eget dictum porttitor, risus urna rutrum magna, eget cursus justo velit at eros. Mauris vitae eros tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi semper blandit est, nec tincidunt diam laoreet a. Vestibulum non ullamcorper velit. Vivamus egestas tortor a egestas sagittis. Mauris in porttitor nisi, sed elementum nunc. Etiam quis faucibus nibh, sit amet congue lacus. Nullam mattis erat ante, vel congue tortor elementum vitae. Quisque quis lacus in quam blandit sodales non vel massa.<br><br>
+          Maecenas id neque elit. Pellentesque gravida risus et ullamcorper vestibulum. Sed velit ligula, pretium nec ullamcorper nec, semper non turpis. Praesent ut erat nec risus imperdiet ornare. Nullam augue mauris, pharetra ac orci id, tincidunt elementum elit. In molestie nulla id libero fermentum, ac porttitor purus volutpat. Donec a lectus a ante lacinia aliquet vel non felis.<br><br>
+          Duis quis euismod leo, non cursus sem. Nam luctus luctus nisi, sed bibendum purus faucibus ac. Donec ornare lectus tellus, a ornare nisi pretium eu. Nulla ut odio urna. Donec sed mattis dolor, ac rutrum leo. Fusce scelerisque tempus magna, in pharetra mauris malesuada nec. Cras cursus ut nisi dictum faucibus. Quisque aliquam velit dolor, eu adipiscing purus convallis ut. Duis consequat placerat sapien. In nec tortor augue. Morbi egestas vestibulum sapien, sed lacinia arcu ultrices non. Aenean sed scelerisque sapien, eu aliquet eros. Curabitur congue massa nec elit auctor, in posuere arcu vulputate. Etiam porttitor sagittis massa. Phasellus in ipsum nec ligula convallis dapibus.<br><br>
+          <!-- End MARKETING section -->
+        </div>
+        <div class="btn-panel technology" section="technology">
+          <!-- Begin html content for the TECHNOLOGY section -->
+          Vivamus convallis, nisl molestie luctus lacinia, felis urna faucibus magna, id dictum erat nibh sed ante. Phasellus adipiscing mi ut tempus sollicitudin. Curabitur vel posuere urna. Maecenas sit amet iaculis nisl, ac tempus tellus. Donec condimentum libero nec nibh interdum, a euismod quam tempus. Proin iaculis non diam vitae scelerisque. Proin fringilla metus et porta porttitor. Sed porttitor ligula id enim rutrum pharetra.<br><br>
+          Sed suscipit mi in est imperdiet pretium. Morbi rhoncus enim ipsum, ut congue metus euismod a. Integer magna nibh, posuere at ultrices eu, ornare id massa. Vivamus suscipit velit quam, at aliquet massa laoreet et. Duis non tincidunt lectus, ac accumsan est. Nam dolor erat, porttitor et tellus tristique, venenatis imperdiet est. Sed hendrerit lacus metus, sit amet condimentum mi vestibulum sed. Quisque porttitor leo suscipit sodales convallis.<br><br>
+          Aliquam nec mauris massa. Fusce auctor erat lacinia, tempus tellus sit amet, consequat nisl. Aliquam erat volutpat. Pellentesque massa justo, aliquam volutpat lacus non, varius rhoncus elit. Sed vehicula, lacus eget dictum porttitor, risus urna rutrum magna, eget cursus justo velit at eros. Mauris vitae eros tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi semper blandit est, nec tincidunt diam laoreet a. Vestibulum non ullamcorper velit. Vivamus egestas tortor a egestas sagittis. Mauris in porttitor nisi, sed elementum nunc. Etiam quis faucibus nibh, sit amet congue lacus. Nullam mattis erat ante, vel congue tortor elementum vitae. Quisque quis lacus in quam blandit sodales non vel massa.<br><br>
+          Maecenas id neque elit. Pellentesque gravida risus et ullamcorper vestibulum. Sed velit ligula, pretium nec ullamcorper nec, semper non turpis. Praesent ut erat nec risus imperdiet ornare. Nullam augue mauris, pharetra ac orci id, tincidunt elementum elit. In molestie nulla id libero fermentum, ac porttitor purus volutpat. Donec a lectus a ante lacinia aliquet vel non felis.<br><br>
+          Duis quis euismod leo, non cursus sem. Nam luctus luctus nisi, sed bibendum purus faucibus ac. Donec ornare lectus tellus, a ornare nisi pretium eu. Nulla ut odio urna. Donec sed mattis dolor, ac rutrum leo. Fusce scelerisque tempus magna, in pharetra mauris malesuada nec. Cras cursus ut nisi dictum faucibus. Quisque aliquam velit dolor, eu adipiscing purus convallis ut. Duis consequat placerat sapien. In nec tortor augue. Morbi egestas vestibulum sapien, sed lacinia arcu ultrices non. Aenean sed scelerisque sapien, eu aliquet eros. Curabitur congue massa nec elit auctor, in posuere arcu vulputate. Etiam porttitor sagittis massa. Phasellus in ipsum nec ligula convallis dapibus.<br><br>
+          <!-- End TECHNOLOGY section -->
+        </div>
+        <div class="btn-panel team" section="team">
+          <!-- Begin html content for the TEAM section -->
+          In hac habitasse platea dictumst. Nunc dictum convallis nunc, ac iaculis nisi viverra vestibulum. Sed vitae nunc eu justo venenatis tincidunt quis sed enim. Morbi pretium laoreet tortor. Sed tempus viverra ligula, eu lacinia purus egestas sed. Vestibulum sodales in massa eu molestie. Nam placerat sodales diam vitae commodo. In diam eros, lacinia in dui vitae, pellentesque convallis sapien. Aenean ullamcorper quam et elit condimentum suscipit. Maecenas varius nulla ipsum, a sagittis massa gravida eget. Mauris ut ipsum viverra, venenatis libero et, euismod diam.<br><br>
+          Sed suscipit mi in est imperdiet pretium. Morbi rhoncus enim ipsum, ut congue metus euismod a. Integer magna nibh, posuere at ultrices eu, ornare id massa. Vivamus suscipit velit quam, at aliquet massa laoreet et. Duis non tincidunt lectus, ac accumsan est. Nam dolor erat, porttitor et tellus tristique, venenatis imperdiet est. Sed hendrerit lacus metus, sit amet condimentum mi vestibulum sed. Quisque porttitor leo suscipit sodales convallis.<br><br>
+          Aliquam nec mauris massa. Fusce auctor erat lacinia, tempus tellus sit amet, consequat nisl. Aliquam erat volutpat. Pellentesque massa justo, aliquam volutpat lacus non, varius rhoncus elit. Sed vehicula, lacus eget dictum porttitor, risus urna rutrum magna, eget cursus justo velit at eros. Mauris vitae eros tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi semper blandit est, nec tincidunt diam laoreet a. Vestibulum non ullamcorper velit. Vivamus egestas tortor a egestas sagittis. Mauris in porttitor nisi, sed elementum nunc. Etiam quis faucibus nibh, sit amet congue lacus. Nullam mattis erat ante, vel congue tortor elementum vitae. Quisque quis lacus in quam blandit sodales non vel massa.<br><br>
+          Maecenas id neque elit. Pellentesque gravida risus et ullamcorper vestibulum. Sed velit ligula, pretium nec ullamcorper nec, semper non turpis. Praesent ut erat nec risus imperdiet ornare. Nullam augue mauris, pharetra ac orci id, tincidunt elementum elit. In molestie nulla id libero fermentum, ac porttitor purus volutpat. Donec a lectus a ante lacinia aliquet vel non felis.<br><br>
+          Duis quis euismod leo, non cursus sem. Nam luctus luctus nisi, sed bibendum purus faucibus ac. Donec ornare lectus tellus, a ornare nisi pretium eu. Nulla ut odio urna. Donec sed mattis dolor, ac rutrum leo. Fusce scelerisque tempus magna, in pharetra mauris malesuada nec. Cras cursus ut nisi dictum faucibus. Quisque aliquam velit dolor, eu adipiscing purus convallis ut. Duis consequat placerat sapien. In nec tortor augue. Morbi egestas vestibulum sapien, sed lacinia arcu ultrices non. Aenean sed scelerisque sapien, eu aliquet eros. Curabitur congue massa nec elit auctor, in posuere arcu vulputate. Etiam porttitor sagittis massa. Phasellus in ipsum nec ligula convallis dapibus.<br><br>
+          <!-- End TEAM section -->
+        </div>
+        <div class="btn-panel contact" section="contact">
+          <!-- Begin html content for the CONTACT section -->
+          Phasellus fermentum at nisl quis ornare. Curabitur adipiscing interdum magna ac hendrerit. Nam tempor lorem at ullamcorper ullamcorper. Nunc lectus metus, hendrerit ac neque sed, hendrerit sollicitudin felis. Donec eleifend neque lectus, ac dictum sem fringilla ac. Nulla facilisi. Morbi aliquam adipiscing hendrerit. Cras nisl ligula, varius nec feugiat eu, dignissim in libero. Quisque aliquet at enim nec tempus. Fusce cursus quis nunc sit amet gravida. Vivamus eu erat fringilla, suscipit urna quis, consequat diam. Nullam in ultricies lorem.<br><br>
+          Sed suscipit mi in est imperdiet pretium. Morbi rhoncus enim ipsum, ut congue metus euismod a. Integer magna nibh, posuere at ultrices eu, ornare id massa. Vivamus suscipit velit quam, at aliquet massa laoreet et. Duis non tincidunt lectus, ac accumsan est. Nam dolor erat, porttitor et tellus tristique, venenatis imperdiet est. Sed hendrerit lacus metus, sit amet condimentum mi vestibulum sed. Quisque porttitor leo suscipit sodales convallis.<br><br>
+          Aliquam nec mauris massa. Fusce auctor erat lacinia, tempus tellus sit amet, consequat nisl. Aliquam erat volutpat. Pellentesque massa justo, aliquam volutpat lacus non, varius rhoncus elit. Sed vehicula, lacus eget dictum porttitor, risus urna rutrum magna, eget cursus justo velit at eros. Mauris vitae eros tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi semper blandit est, nec tincidunt diam laoreet a. Vestibulum non ullamcorper velit. Vivamus egestas tortor a egestas sagittis. Mauris in porttitor nisi, sed elementum nunc. Etiam quis faucibus nibh, sit amet congue lacus. Nullam mattis erat ante, vel congue tortor elementum vitae. Quisque quis lacus in quam blandit sodales non vel massa.<br><br>
+          Maecenas id neque elit. Pellentesque gravida risus et ullamcorper vestibulum. Sed velit ligula, pretium nec ullamcorper nec, semper non turpis. Praesent ut erat nec risus imperdiet ornare. Nullam augue mauris, pharetra ac orci id, tincidunt elementum elit. In molestie nulla id libero fermentum, ac porttitor purus volutpat. Donec a lectus a ante lacinia aliquet vel non felis.<br><br>
+          Duis quis euismod leo, non cursus sem. Nam luctus luctus nisi, sed bibendum purus faucibus ac. Donec ornare lectus tellus, a ornare nisi pretium eu. Nulla ut odio urna. Donec sed mattis dolor, ac rutrum leo. Fusce scelerisque tempus magna, in pharetra mauris malesuada nec. Cras cursus ut nisi dictum faucibus. Quisque aliquam velit dolor, eu adipiscing purus convallis ut. Duis consequat placerat sapien. In nec tortor augue. Morbi egestas vestibulum sapien, sed lacinia arcu ultrices non. Aenean sed scelerisque sapien, eu aliquet eros. Curabitur congue massa nec elit auctor, in posuere arcu vulputate. Etiam porttitor sagittis massa. Phasellus in ipsum nec ligula convallis dapibus.<br><br>
+          <!-- End CONTACT section -->
+        </div>
+      </div>
+      <div class="right">
+        <div id="panelScroller">
+          <div id="panelContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="slider" class="step-1">
+      <div class="slider-inner">
+        <div id="cobas"></div>
+        <div id="cobar"></div>
+        <div id="bgbar"></div>
+        <div class="slide-stop disabled pos-1"></div>
+        <div class="slide-stop disabled pos-2"></div>
+        <div class="slide-stop disabled pos-3"></div>
+        <div class="slide-stop disabled pos-4"></div>
+        <div class="slide-point"></div>
+      </div>
+    </div>
+
+    <div class="progress-bar" id="progressBar">
+      <div class="progress-bar-inner">
+        <div class="percent-bar" id="barPercent"></div>
+      </div>
+    </div>
+
+    <div class="loading" id="loader">
+      <div class="wrapper">
+        <div class="ico-loading" id="animLoader">
+          <div class="txt-inner">Loading...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="log"></div>
+  <script type="text/javascript" ping="js/app" src="js/libs/bella.js"></script>
+  </body>
+</html>
